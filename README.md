@@ -92,7 +92,7 @@ This is a static site and can be deployed to:
 ## Contact & Links
 
 - **Email**: kanha01212@gmail.com
-- **Phone**: 9329866996
+- **Phone**: ...............
 - **LinkedIn**: [krishna-vishwakarma-475ab1353](https://www.linkedin.com/in/krishna-vishwakarma-475ab1353)
 - **GitHub**: [DEV-KV2](https://github.com/DEV-KV2)
 - **Location**: Gwalior, Madhya Pradesh
