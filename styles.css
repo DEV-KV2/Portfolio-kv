@@ -808,6 +808,73 @@ body.cleaned-mode .other-project:hover {
 .project-content p {
     font-size: 0.95rem;
     color: var(--text-light);
+    margin-bottom: 1rem;
+}
+
+.project-links {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.project-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--accent);
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.project-btn:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 5px 15px rgba(124, 58, 237, 0.3);
+}
+
+.project-btn-sm {
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    background: transparent;
+    color: var(--accent);
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+.project-btn-sm:hover {
+    transform: translateX(3px);
+    opacity: 0.7;
+}
+
+body.chaos-mode .project-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #ffffff;
+}
+
+body.chaos-mode .project-btn:hover {
+    background: #ffffff;
+    color: #000000;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+body.chaos-mode .project-btn-sm {
+    color: #ffffff;
+}
+
+body.chaos-mode .project-btn-sm:hover {
+    color: rgba(255, 255, 255, 0.6);
 }
 
 /* ===== Other Work Section ===== */
