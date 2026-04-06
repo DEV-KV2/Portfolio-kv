@@ -1,4 +1,4 @@
-# Krishna Vishwakarma - AI Developer Portfolio
+# Krishna Vishwakarma - AIML And WEB Developer Portfolio
 
 A modern, interactive portfolio website showcasing AI/ML projects and web development work. Features multiple viewing modes (Normal, Cleaned, Chaos) with smooth animations and responsive design.
 
